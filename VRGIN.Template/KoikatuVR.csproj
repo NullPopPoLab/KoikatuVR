@@ -32,11 +32,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>Libs\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\external\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="BepInEx">
-      <HintPath>Libs\BepInEx.dll</HintPath>
+      <HintPath>..\external\BepInEx.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -99,8 +99,8 @@
       <PdbFiles Include="$(OutputPath)*.pdb" />
     </ItemGroup>
     <!-- Copy plugins to the right place -->
-	<Copy SourceFiles="@(PluginFiles)" DestinationFolder="$(OutputPath)BepInEx\%(RecursiveDir)" />
-	<Copy SourceFiles="@(DataPluginFiles)" DestinationFolder="$(OutputPath)Koikatu_Data\Plugins\%(RecursiveDir)" />
+    <Copy SourceFiles="@(PluginFiles)" DestinationFolder="$(OutputPath)BepInEx\%(RecursiveDir)" />
+    <Copy SourceFiles="@(DataPluginFiles)" DestinationFolder="$(OutputPath)Koikatu_Data\Plugins\%(RecursiveDir)" />
     <!-- Remove unneeded directory -->
     <RemoveDir Directories="$(OutputPath)Plugins" />
     <!-- Copy libraries to the right place -->

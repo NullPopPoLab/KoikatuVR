@@ -1,0 +1,7 @@
+﻿コイカツ+BepInEx5 インストールフォルダから
+
+Koikatu_Data/Managed/Assembly-CSharp.dll
+BepInEx/core/BepInEx.dll
+
+を拾ってきて、ここに置く。
+絶対commit/push厳禁(特に前者はIllusionの著作物)
