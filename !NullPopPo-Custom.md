@@ -19,8 +19,10 @@
 # 現状わかっている問題点 
 
 - 派生元版はBepIn5と相性が悪い
-  - 例外吐いてプラグイン強制終了の刑
+  - ~~例外吐いてプラグイン強制終了の刑~~ (修正)
   - BepIn4時代に動作していたことは確認済
+- Resources.GetBuiltinResource<Material>("Sprites-Default.mat") が失敗している
+- ~~VRGIN.Modes.ControlMode:InitializeScreenCapture() で例外落ち~~ (回避)
 - コイカツはUnity 5.6.2で動いてるのに UNITY_5_3 とか怪しそうだけど…
   - 派生元これでも動いてたので、この点はひとまず放置
   - というか先日、参照を5.6.2に置き換えてみたら余計悪化したらしいので戻し
