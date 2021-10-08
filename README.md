@@ -1,3 +1,7 @@
+# NullPopPo-Custom
+[詳細](https://github.com/NullPopPoLab/KoikatuVR/blob/master/!NullPopPo-Custom.md)
+
+---
 # Ooetksh 追記
 
 当 KoikatuVR は BepInEx 用のプラグインです（*IPAは不要*）。
