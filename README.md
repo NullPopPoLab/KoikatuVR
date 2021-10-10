@@ -1,6 +1,7 @@
 # NullPopPo-Custom
 [詳細](https://github.com/NullPopPoLab/KoikatuVR/blob/master/!NullPopPo-Custom.md)
 
+以下、fork元
 ---
 # Ooetksh 追記
 
